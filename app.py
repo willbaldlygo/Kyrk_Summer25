@@ -3,6 +3,7 @@ import os
 import glob
 import streamlit as st
 import pandas as pd
+import re  
 from pandasai import SmartDataframe
 from pandasai.llm import OpenAI
 
